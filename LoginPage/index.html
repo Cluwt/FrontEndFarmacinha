@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacinha</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100vh;
+            background-color: #fff;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        header h2 {
+            font-size: 22px;
+            color: #d81b1b;
+        }
+
+        .login-box {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-box input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-box .btn-entrar {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .login-box .btn-cancelar {
+            background-color: #d81b1b;
+            color: #fff;
+        }
+
+        .login-box a {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #888;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #f9f9f9;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+
+        footer .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        footer .footer-links div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer .footer-links a {
+            margin: 5px 0;
+            color: #555;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        footer .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        footer .social-icons i {
+            font-size: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Farmacinha</h1>
+        <h2>Saúde & Bem-Estar</h2>
+    </header>
+
+    <div class="login-box">
+        <input type="text" placeholder="CPF">
+        <input type="password" placeholder="Senha">
+        <button class="btn-entrar">ENTRAR</button>
+        <button class="btn-cancelar">CANCELAR</button>
+        <a href="#">Redefinir senha</a>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <div>
+                <a href="#">Site name</a>
+            </div>
+            <div>
+                <a href="#">Topic</a>
+                <a href="#">Page</a>
+                <a href="#">Page</a>
+                <a href="#">Page</a>
+            </div>
+            <div>
+                <a href="#">Topic</a>
+                <a href="#">Page</a>
+                <a href="#">Page</a>
+                <a href="#">Page</a>
+            </div>
+            <div>
+                <a href="#">Topic</a>
+                <a href="#">Page</a>
+                <a href="#">Page</a>
+                <a href="#">Page</a>
+            </div>
+        </div>
+        <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </footer>
+
+</body>
+</html>
